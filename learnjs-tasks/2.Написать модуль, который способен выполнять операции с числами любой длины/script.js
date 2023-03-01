@@ -18,7 +18,7 @@ let calculator = {
       if ((this.a >9007199254740991 )||(this.b >9007199254740991 )){
          return BigInt(this.a + this.b)
       }else{
-     return typeof(this.a + this.b);
+     return this.a + this.b;
       }
    },
    split() {
